@@ -9,7 +9,6 @@ try:
   import re
   import urllib
   import urllib2
-  import difflib
   from cookielib import CookieJar
   from BeautifulSoup import BeautifulSoup
   import smtplib
