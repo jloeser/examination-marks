@@ -13,3 +13,7 @@ You need to set first:
     PASSWORD = 'passwd1234'
     SMTPSERVER = 'smtp.foo.bar'
     RECIPIENTS = ['student1234@foo.bar']
+
+Cronjob example (pull every 5min):
+
+    */5 * * * * cd ~/examination-marks; python exammarks.py -q
